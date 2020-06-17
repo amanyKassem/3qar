@@ -4,7 +4,7 @@ const en = {
     'loginText'                 : 'Please login to be able to browse the application',
     'phone'                     : 'Phone number',
     'password'                  : 'Password',
-    'oldPassword'               : 'old Password',
+    'currentPassword'           : 'Current Password',
     'forgetPassword'            : 'Forgot your password?',
     'haveNoAcc'                 : 'Have no account ?',
     'registerNow'               : 'Register now',
@@ -77,7 +77,7 @@ const en = {
     'about'                     : 'Application overview',
     'settings'                  : 'Settings',
     'account'                   : 'Account',
-    'editData'                  : 'Information modification',
+    'editProfile'               : 'Edit profile',
     'editPersonalData'          : 'Personal Information modification',
     'changePass'                : 'Change password',
     'appNoti'                   : 'App notifications',
@@ -257,6 +257,12 @@ const en = {
     'areas'                     : 'Areas',
     'myLocation'                : 'My location',
     'conversations'             : 'Conversations',
+    'advNum'                    : 'Advertiser number',
+    'adsNum'                    : 'Ads number',
+    'officeDoc'                 : 'Office documentation',
+    '?'                         : '?',
+    'attachLicense'             : 'Please attach a copy of the commercial registration or the municipal license',
+    'chat'                      : 'Chat',
 };
 
 export default en;

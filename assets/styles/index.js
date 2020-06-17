@@ -50,6 +50,9 @@ const styles = ({
     text_semon : {
         color               : COLORS.semon
     },
+    text_orange : {
+        color               : COLORS.orange
+    },
 
     // Style Font
 
@@ -70,6 +73,9 @@ const styles = ({
     },
     fontSpacing: {
         letterSpacing       : 1,
+    },
+    textSize_10 : {
+        fontSize            : 10,
     },
     textSize_11 : {
         fontSize            : 11,
@@ -280,6 +286,9 @@ const styles = ({
     },
     paddingTop_30 : {
         paddingTop      : 30
+    },
+    paddingTop_20 : {
+        paddingTop      : 20
     },
 
     // Padding Space Horizontal
@@ -566,6 +575,9 @@ const styles = ({
     Width_100 : {
         width               : '100%'
     },
+    width_20 : {
+        width               : 20
+    },
     width_30 : {
         width               : 30
     },
@@ -601,6 +613,9 @@ const styles = ({
     },
     height_10 : {
         height               : 10
+    },
+    height_15 : {
+        height               : 15
     },
     height_20 : {
         height               : 20
@@ -646,6 +661,9 @@ const styles = ({
     },
     height_250 : {
         height              : 250
+    },
+    height_320 : {
+        height              : 320
     },
     heightFull : {
         height              : '100%'
@@ -710,6 +728,10 @@ const styles = ({
     icon250 : {
         width               : 250,
         height              : 250,
+    },
+    icon110 : {
+        width               : 110,
+        height              : 110,
     },
     icon130 : {
         width               : 130,
@@ -948,7 +970,7 @@ const styles = ({
         zIndex:-1
     },
     imgOverLay:{
-        backgroundColor: "rgba(95, 78, 75, 0.5)" ,
+        backgroundColor     : "rgba(0, 0, 0, 0.5)",
         position:'absolute',
         height:'100%' ,
         width:'100%' ,
@@ -1262,17 +1284,20 @@ const styles = ({
         borderRadius:20
     },
     notiCard:{
-        borderRadius: 10,
-        marginTop: 10,
+        borderRadius: 20,
         height: 100,
         overflow:'hidden',
-    },
-    cardView:{
+        borderWidth:1,
+        borderTopColor:COLORS.lightGray,
+        borderRightColor:COLORS.lightGray,
+        borderBottomColor:COLORS.lightGray,
         borderLeftWidth: 7,
-        width: '100%',
-        height: '100%',
         flexDirection: 'row',
-        paddingVertical: 10
+    },
+    chatCard:{
+        borderRadius: 20,
+        padding:10,
+        overflow:'hidden',
     },
     cardDate:{
         borderRightWidth: 1,
@@ -1325,6 +1350,12 @@ const styles = ({
     },
     checkbox:{
         color:COLORS.yellow,
+    },
+    line:{
+        borderWidth:.5,
+        borderColor:COLORS.lightGray,
+        width:'72%',
+        alignSelf:'center'
     },
 });
 

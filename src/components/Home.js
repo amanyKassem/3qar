@@ -35,7 +35,7 @@ function Home({navigation}) {
 
     return (
         <Container>
-            <Content scrollEnabled={false} contentContainerStyle={[styles.bgFullWidth , styles.bg_green]}>
+            <Content contentContainerStyle={[styles.bgFullWidth , styles.bg_green]}>
 
                 <Header navigation={navigation} title={ i18n.t('home') }/>
 
