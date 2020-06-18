@@ -4,7 +4,7 @@ import {Container, Content, Card} from 'native-base'
 import styles from '../../assets/styles'
 import i18n from "../../locale/i18n";
 import {useSelector} from "react-redux";
-import Header from '../Common/Header';
+import Header from '../common/Header';
 
 const height = Dimensions.get('window').height;
 const isIOS = Platform.OS === 'ios';

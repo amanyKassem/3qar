@@ -9,14 +9,14 @@ import Header from '../common/Header';
 const height = Dimensions.get('window').height;
 const isIOS = Platform.OS === 'ios';
 
-function MyLocation({navigation}) {
+function Construction({navigation}) {
 
 
     return (
         <Container>
             <Content contentContainerStyle={[styles.bgFullWidth , styles.bg_green]}>
 
-                <Header navigation={navigation} title={ i18n.t('myLocation') }/>
+                <Header navigation={navigation} title={ i18n.t('construction') }/>
 
                 <View style={[styles.bgFullWidth,styles.paddingHorizontal_20 ,styles.bg_White,
                     styles.Width_100, styles.paddingTop_30,
@@ -31,6 +31,6 @@ function MyLocation({navigation}) {
     );
 }
 
-export default MyLocation;
+export default Construction;
 
 

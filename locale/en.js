@@ -263,6 +263,16 @@ const en = {
     '?'                         : '?',
     'attachLicense'             : 'Please attach a copy of the commercial registration or the municipal license',
     'chat'                      : 'Chat',
+    'terms'                     : 'Terms and conditions',
+    'myAds'                     : 'My ads',
+    'ourClients'                : 'Our clients',
+    'specialOffers'             : 'Special offers',
+    'announceToday'             : 'Announcements today',
+    'addUrAd'                   : 'Add your ad',
+    'exclusiveMarketing'        : 'Exclusive marketing',
+    'leaseContracts'            : 'Lease contracts',
+    'construction'              : 'Construction and contracting',
+    'mortgage'                  : 'Mortgage Calculator',
 };
 
 export default en;

@@ -5,7 +5,7 @@ import styles from '../../assets/styles'
 import i18n from "../../locale/i18n";
 import COLORS from "../consts/colors";
 import {useSelector} from "react-redux";
-import Header from '../Common/Header';
+import Header from '../common/Header';
 
 const height = Dimensions.get('window').height;
 const isIOS = Platform.OS === 'ios';

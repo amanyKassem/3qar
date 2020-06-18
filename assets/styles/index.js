@@ -299,6 +299,9 @@ const styles = ({
     paddingHorizontal_5 : {
         paddingHorizontal    : 5
     },
+    paddingHorizontal_7 : {
+        paddingHorizontal    : 7
+    },
     paddingHorizontal_10 : {
         paddingHorizontal    : 10
     },
@@ -465,6 +468,9 @@ const styles = ({
     },
     alignStart : {
         alignSelf      : 'flex-start',
+    },
+    alignEnd : {
+        alignSelf      : 'flex-end',
     },
     rowGroup : {
         flexDirection       : "row",
@@ -1110,14 +1116,14 @@ const styles = ({
     },
     searchInput : {
         borderRadius        : 10,
-        color               : COLORS.gray,
-        paddingRight        : 20,
-        paddingLeft         : 60,
+        color               : COLORS.black,
+        backgroundColor     : '#ddd',
+        paddingRight        : 15,
+        paddingLeft         : 15,
         textAlign           : I18nManager.isRTL ? 'right' : 'left',
         fontFamily          : 'cairo',
-        fontSize            : 15,
-        width               : '100%',
-        height              : 50
+        fontSize            : 14,
+        height              : 40
     },
     filter : {
         borderRadius        : 10,

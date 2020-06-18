@@ -8,7 +8,7 @@ import RNPickerSelect from 'react-native-picker-select';
 import * as ImagePicker from 'expo-image-picker';
 import * as Permissions from 'expo-permissions';
 import {useSelector} from "react-redux";
-import Header from '../Common/Header';
+import Header from '../common/Header';
 
 const height = Dimensions.get('window').height;
 const isIOS = Platform.OS === 'ios';

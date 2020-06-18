@@ -264,6 +264,16 @@ const ar = {
     '?'                         : '؟',
     'attachLicense'             : 'الرجاء ارفاق صورة السجل التجاري او الرخصه البلدية',
     'chat'                      : 'المحادثة',
+    'terms'                     : 'شروط وأحكام',
+    'myAds'                     : 'اعلاناتي',
+    'ourClients'                : 'عملائنا',
+    'specialOffers'             : 'عروض مميزه',
+    'announceToday'             : 'إعلانات اليوم',
+    'addUrAd'                   : 'أضف اعلانك',
+    'exclusiveMarketing'        : 'التسويق الحصري',
+    'leaseContracts'            : 'عقود الإيجار',
+    'construction'              : 'البناء والمقاولات',
+    'mortgage'                  : 'حاسبة التمويل العقاري',
 };
 
 export default ar;

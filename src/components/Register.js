@@ -159,7 +159,7 @@ function Register({navigation}) {
 
                                 {renderSubmit()}
 
-                                <TouchableOpacity onPress={() => setIsChecked(!isChecked)}
+                                <TouchableOpacity onPress={() => navigation.navigate('terms')}
                                                   style={[styles.Width_100, styles.marginBottom_20 , styles.marginTop_5  , styles.directionRowCenter]}>
                                     <CheckBox style={[styles.checkBox]} onPress={() => setIsChecked(!isChecked)} checked={isChecked} color={COLORS.mstarda}/>
                                     <Text style={[styles.textRegular , styles.text_White , styles.textDecoration , styles.textSize_14]}>{ i18n.t('agreeTo') }</Text>
